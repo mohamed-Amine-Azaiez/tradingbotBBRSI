@@ -1,0 +1,35 @@
+{
+  "strategy_name": "BBRSINaiveStrategy",
+  "params": {
+    "trailing": {
+      "trailing_stop": false,
+      "trailing_stop_positive": null,
+      "trailing_stop_positive_offset": 0.0,
+      "trailing_only_offset_is_reached": false
+    },
+    "buy": {
+      "buy_bb": "tr_bb_lower_2sd",
+      "buy_rsi": 44,
+      "buy_rsi_enabled": false,
+      "rsi_buy": 33
+    },
+    "sell": {
+      "rsi_sell": 90,
+      "sell_bb": "sell_tr_bb_upper_1sd",
+      "sell_rsi": 91,
+      "sell_rsi_enabled": true
+    },
+    "protection": {},
+    "roi": {
+      "0": 0.15300000000000002,
+      "89": 0.11800000000000001,
+      "217": 0.021,
+      "389": 0
+    },
+    "stoploss": {
+      "stoploss": -0.289
+    }
+  },
+  "ft_stratparam_v": 1,
+  "export_time": "2022-03-23 22:13:44.775538+00:00"
+}
